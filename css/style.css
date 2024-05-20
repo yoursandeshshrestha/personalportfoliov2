@@ -619,4 +619,10 @@ p{
     .container{
       max-width: 100%;
     }
+    .mainbody p:nth-of-type(1){
+      font-size: 32px;
+    }
+    .mainbody p:nth-of-type(2){
+      font-size: 28px;
+    }
 }
