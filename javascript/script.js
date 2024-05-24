@@ -47,18 +47,18 @@ gsap.from(".upper-text, .mid-text, .other-stuff, .skill-list>p", {
 
     }
 })
-gsap.from(".about-image-area>img", {
-    x: 60,
-    opacity: 0,
-    duration: 1,
-    ease: "power2.out",
-    delay: 1,
-    scrollTrigger: {
-        trigger: ".upper-text",
-        scroller: "body",
-        // markers: true,
-        scrub: 0.3,
-        end: "bottom 50%",
-        start: "top 90%"
-    }
-})
+// gsap.from(".about-image-area>img", {
+//     x: 60,
+//     opacity: 0,
+//     duration: 1,
+//     ease: "power2.out",
+//     delay: 1,
+//     scrollTrigger: {
+//         trigger: ".upper-text",
+//         scroller: "body",
+//         // markers: true,
+//         scrub: 0.3,
+//         end: "bottom 50%",
+//         start: "top 90%"
+//     }
+// })

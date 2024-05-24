@@ -602,6 +602,7 @@ p{
     margin-bottom: 0;
     /* background-color: pink; */
   }
+  
 }
 @media (max-width: 640px){
   .container{
@@ -614,6 +615,7 @@ p{
   .mainbody p:nth-of-type(3){
     font-size: 18px;
   }
+  
 }
 @media (max-width: 475px){
     .container{
@@ -624,5 +626,13 @@ p{
     }
     .mainbody p:nth-of-type(2){
       font-size: 28px;
+    }
+    .about-main{
+      flex-direction: column-reverse;
+    }
+    .about-main img{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: block;
     }
 }
