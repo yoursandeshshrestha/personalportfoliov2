@@ -632,6 +632,9 @@ p {
   .mainbody p:nth-of-type(3) {
     font-size: 18px;
   }
+  .Main-project-container .tech-used li {
+    font-size: 12px;
+  }
 }
 @media (max-width: 475px) {
   .container {
@@ -659,5 +662,8 @@ p {
   }
   .about-image-area img:hover {
     transform: translateY(0);
+  }
+  .Main-project-container .tech-used li {
+    font-size: 9px;
   }
 }
